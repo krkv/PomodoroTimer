@@ -1,0 +1,54 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#time {
+    font: 7em 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+#content button {
+    font: 1em 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.disabled-button {
+    opacity: 0.1;
+}
+
+.bg-stopped {
+    background-color: #086A87;
+}
+
+.bg-working {
+    background-color: #088A08;
+}
+
+.bg-paused {
+    background-color: #868A08;
+}
+
+.fa {
+    padding-right: 10px;
+}

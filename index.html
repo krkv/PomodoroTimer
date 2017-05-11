@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="content">
+            <button id="button25" onclick="startTimer(25)"><i class="fa fa-hourglass" aria-hidden="true"></i>25:00</button>
+            <button id="button20" onclick="startTimer(20)"><i class="fa fa-hourglass-half" aria-hidden="true"></i>20:00</button>
+            <button id="button5" onclick="startTimer(5)"><i class="fa fa-hourglass-end" aria-hidden="true"></i>5:00</button>
+            <div id="time">0</div>
+            <button id="button1" onclick="startTimer()"><i class="fa fa-play" aria-hidden="true"></i>Start</button>
+            <button id="button2" onclick="stopTimer()"><i class="fa fa-stop" aria-hidden="true"></i>Stop</button>
+            <audio id="chime">
+                <source src="chime.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
